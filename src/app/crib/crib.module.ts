@@ -8,6 +8,8 @@ import { CssComponent } from './css/css.component';
 import { JsComponent } from './js/js.component';
 import { MediaComponent } from './media/media.component';
 import { HtmlComponent } from './html/html.component';
+import { MenuComponent } from './menu/menu.component';
+import { DrawerMenuComponent } from './menu/drawer-menu/drawer-menu.component';
 
 
 
@@ -18,7 +20,9 @@ import { HtmlComponent } from './html/html.component';
     CssComponent,
     JsComponent,
     MediaComponent,
-    HtmlComponent
+    HtmlComponent,
+    MenuComponent,
+    DrawerMenuComponent
   ],
   imports: [
     CommonModule,
