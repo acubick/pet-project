@@ -1,0 +1,60 @@
+<nav>
+  <a routerLink="">Главная</a>
+  <a routerLink="/css-tricks">Css-tricks</a>
+  <a routerLink="/crib">Шпаргалка</a>
+</nav>
+
+<div class="wrapper">
+  <header class="header">
+    <div class="container">
+      <div class="header__body">
+        <a href="" class="header__logo">
+          <img src="https://picsum.photos/300" alt="logo" title="version 0.0.1">
+        </a>
+        <!--/.header__logo -->
+
+        <div class="title">
+          {{ title }}
+        </div>
+        <!-- /.title -->
+
+        <div class="header__burger" (click)="openMenu()" [class.active]="isVisible">
+          <span></span>
+        </div>
+        <!-- /.header__burger -->
+
+        <nav class="header__menu" [class.active]="isVisible">
+          <ul class="header__list right">
+            <li routerLinkActive="active">
+              <a [routerLink]="['../home']" class="header__link" (click)="unLock()">Главная</a>
+            </li>
+            <li routerLinkActive="active">
+              <a [routerLink]="['../css-tricks']"  class="header__link" (click)="unLock()">Css-трюки</a>
+            </li>
+            <li routerLinkActive="active">
+              <a  [routerLink]="['../crib']" class="header__link"
+                  (click)="unLock()">Шпаргалка</a>
+            </li>
+            <li routerLinkActive="active">
+              <a  [routerLink]="['../links']" class="header__link"
+                  (click)="unLock()">Подать заявку</a>
+            </li>
+            <!--<li>-->
+            <!--  <a href="" class="header__link">Полезное</a>-->
+            <!--</li>-->
+            <!--<li>-->
+            <!--  <a href="" class="header__link">О канале</a>-->
+            <!--</li>-->
+            <!--<li>-->
+            <!--  <a href="" class="header__link">Контакты</a>-->
+            <!--</li>-->
+          </ul>
+        </nav>
+        <!--/.header__menu-->
+      </div>
+    </div>
+  </header>
+</div>
+
+
+
