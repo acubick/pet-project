@@ -1,21 +1,23 @@
 <p>css-tricks works!</p>
+<div class="container">
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">css-tricks works!</h5>
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="'hover'"
+             routerLinkActive="active"
 
-<div class="card">
-  <div class="card-body">
-    <h5 class="card-title">css-tricks works!</h5>
-    <ul class="nav">
-      <li class="nav-item">
-        <a class="nav-link" [routerLink]="'hover'"
-           routerLinkActive="active"
-
-        > Css-tricks hover </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" [routerLink]="'text-jumps'" routerLinkActive="active"> Css-tricks text jumps </a>
-      </li>
-    </ul>
-    <p class="card-text">
-      <router-outlet></router-outlet>
-    </p>
+          > Css-tricks hover </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="'text-jumps'" routerLinkActive="active"> Css-tricks text jumps </a>
+        </li>
+      </ul>
+      <p class="card-text">
+        <router-outlet></router-outlet>
+      </p>
+    </div>
   </div>
 </div>
+<!-- /.container -->

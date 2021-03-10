@@ -4,9 +4,7 @@ import {CssComponent} from './css.component';
 import {HoverComponent} from './hover/hover.component';
 import {TextComponent} from './text/text.component';
 import {NotFoundComponent} from '../../not-found/not-found.component';
-import {TestFirstComponent} from '../../css-tricks/hover/test-first/test-first.component';
-import {TestSecondComponent} from '../../css-tricks/hover/test-second/test-second.component';
-import {TestThreeComponent} from '../../css-tricks/hover/test-three/test-three.component';
+
 
 
 

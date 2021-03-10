@@ -1,52 +1,53 @@
+<div class="container">
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">crib works!</h5>
+      <ul class="nav">
 
-<div class="card">
-  <div class="card-body">
-    <h5 class="card-title">crib works!</h5>
-    <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="'animation'"
+             routerLinkActive="active"
+          > crib animation</a>
+        </li>
 
-      <li class="nav-item">
-        <a class="nav-link" [routerLink]="'animation'"
-           routerLinkActive="active"
-        > crib animation</a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" [routerLink]="'css'"
-           routerLinkActive="active"
-        > crib  css </a>
-      </li>
-
-
-      <li class="nav-item">
-        <a class="nav-link" [routerLink]="'html'"
-           routerLinkActive="active"
-        > crib  html </a>
-      </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="'css'"
+             routerLinkActive="active"
+          > crib css </a>
+        </li>
 
 
-      <li class="nav-item">
-        <a class="nav-link" [routerLink]="'js'"
-           routerLinkActive="active"
-        > crib js </a>
-      </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="'html'"
+             routerLinkActive="active"
+          > crib html </a>
+        </li>
 
 
-      <li class="nav-item">
-        <a class="nav-link" [routerLink]="'media'"
-           routerLinkActive="active"
-        > crib  media </a>
-      </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="'js'"
+             routerLinkActive="active"
+          > crib js </a>
+        </li>
 
 
-      <li class="nav-item">
-        <a class="nav-link" [routerLink]="'menu'"
-           routerLinkActive="active"
-        > crib menu </a>
-      </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="'media'"
+             routerLinkActive="active"
+          > crib media </a>
+        </li>
 
-    </ul>
-    <p class="card-text">
-      <router-outlet></router-outlet>
-    </p>
+
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="'menu'"
+             routerLinkActive="active"
+          > crib menu </a>
+        </li>
+
+      </ul>
+      <p class="card-text">
+        <router-outlet></router-outlet>
+      </p>
+    </div>
   </div>
 </div>
