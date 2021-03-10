@@ -17,7 +17,6 @@ import { DrawerMenuComponent } from './menu/drawer-menu/drawer-menu.component';
   declarations: [
     CribComponent,
     AnimationComponent,
-    CssComponent,
     JsComponent,
     MediaComponent,
     HtmlComponent,
