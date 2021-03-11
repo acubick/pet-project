@@ -1,2 +1,51 @@
-<p>crib works!</p>
-<router-outlet></router-outlet>
+<div class="container">
+
+  <h5 class="card-title">crib works!</h5>
+  <ul class="nav tabs tabs-transparent  blue-grey">
+
+    <li class="nav-item tab">
+      <a class="nav-link" [routerLink]="'animation'"
+         routerLinkActive="active"
+      >animation</a>
+    </li>
+
+    <li class="nav-item tab">
+      <a class="nav-link" [routerLink]="'css'"
+         routerLinkActive="active"
+      >css</a>
+    </li>
+
+
+    <li class="nav-item tab">
+      <a class="nav-link" [routerLink]="'html'"
+         routerLinkActive="active"
+      >html</a>
+    </li>
+
+
+    <li class="nav-item tab">
+      <a class="nav-link" [routerLink]="'js'"
+         routerLinkActive="active"
+      >js</a>
+    </li>
+
+
+    <li class="nav-item tab">
+      <a class="nav-link" [routerLink]="'media'"
+         routerLinkActive="active"
+      >media</a>
+    </li>
+
+
+    <li class="nav-item tab">
+      <a class="nav-link" [routerLink]="'menu'"
+         routerLinkActive="active"
+      >menu</a>
+    </li>
+
+  </ul>
+  <p class="card-text">
+    <router-outlet></router-outlet>
+  </p>
+</div>
+

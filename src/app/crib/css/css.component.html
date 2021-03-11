@@ -1,2 +1,25 @@
-<p>css works!</p>
-<router-outlet></router-outlet>
+<div class="row">
+
+  <div class="col s3 transparent nav-sidebar">
+
+    <h5 class="card-title">css</h5>
+      <ul class="nav">
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link" [routerLink]="'hover'"
+          > Crib Css hover </a>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link" [routerLink]="'text'"> Css Css text </a>
+        </li>
+      </ul>
+
+  </div>
+
+
+  <div class="col s9">
+    <p class="card-text">
+      <router-outlet></router-outlet>
+    </p>
+  </div>
+
+</div>

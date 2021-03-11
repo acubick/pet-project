@@ -11,13 +11,22 @@ import {NotFoundComponent} from '../../not-found/not-found.component';
 
 
 
+
 const routes: Routes = [
-  {path: 'css', component: CssComponent, children: [
+  {
+    path: '', component: CssComponent, children: [
+
+      {
+        path: 'hover', component: HoverComponent
+      },
+      {
+        path: 'text', component: TextComponent
+      },
       {path: '', redirectTo: 'hover', pathMatch: 'full'},
-      {path: 'hover', component: HoverComponent},
-      {path: 'text', component: TextComponent}
-    ]},
-  {path: '**', component: NotFoundComponent }
+      { path: '**', component:  NotFoundComponent}
+
+    ]
+  }
 
 ];
 
@@ -29,3 +38,4 @@ const routes: Routes = [
 
 
 export class CssRoutingModule { }
+

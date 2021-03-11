@@ -6,12 +6,10 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NotFoundComponent } from './not-found/not-found.component';
-import {CribModule} from './crib/crib.module';
 import { HomeComponent } from './home/home.component';
-import {HomeModule} from './home/home.module';
-import {CssTricksModule} from './css-tricks/css-tricks.module';
 import { HeaderMainComponent } from './header-main/header-main.component';
 import { FooterMainComponent } from './footer-main/footer-main.component';
+import {FormsModule} from '@angular/forms';
 
 
 
@@ -23,16 +21,13 @@ import { FooterMainComponent } from './footer-main/footer-main.component';
     NotFoundComponent,
     HomeComponent,
     HeaderMainComponent,
-    FooterMainComponent,
+    FooterMainComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule,
-    CribModule,
-    HomeModule,
-    CssTricksModule,
-
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

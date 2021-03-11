@@ -1,2 +1,22 @@
-<p>css-tricks works!</p>
-<router-outlet></router-outlet>
+
+<div class="container">
+
+      <h5 class="card-title">css-tricks</h5>
+      <ul class="nav tabs tabs-transparent  blue-grey">
+        <li class="nav-item tab">
+          <a class="nav-link" [routerLink]="'hover'"
+             routerLinkActive="active"
+          >hover </a>
+        </li>
+        <li class="nav-item tab">
+          <a class="nav-link" [routerLink]="'text-jumps'"
+             routerLinkActive="active"
+          >text jumps </a>
+        </li>
+      </ul>
+      <p class="card-text">
+        <router-outlet></router-outlet>
+      </p>
+
+</div>
+<!-- /.container -->

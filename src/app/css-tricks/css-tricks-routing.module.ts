@@ -4,17 +4,26 @@ import {RouterModule, Routes} from '@angular/router';
 import {NotFoundComponent} from '../not-found/not-found.component';
 import {CssTricksComponent} from './css-tricks.component';
 import {TextJumpsComponent} from './text-jumps/text-jumps.component';
-import {HoverComponent} from './hover/hover.component';
+
 
 
 
 const routes: Routes = [
-  {path: 'css-tricks', component: CssTricksComponent, children: [
-      {path: '', redirectTo: 'hover', pathMatch: 'full'},
-      {path: 'hover', component: HoverComponent},
-      {path: 'text-jumps', component: TextJumpsComponent}
-    ]},
-  {path: '**', component: NotFoundComponent }
+
+  {
+    path: '', component: CssTricksComponent, children: [
+      {
+        path: 'text-jumps', component: TextJumpsComponent,
+      },
+      { path: 'hover', loadChildren: () => import(`./hover/hover.module`).then(m => m.HoverModule) },
+
+      {
+        path: '', redirectTo: 'text-jumps', pathMatch: 'full'
+      },
+
+      { path: '**', component: NotFoundComponent  }
+    ]
+  }
 
 ];
 
