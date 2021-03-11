@@ -1,21 +1,29 @@
-<p>hover works!</p>
+<div class="row">
 
-<div class="card">
-  <div class="card-body">
-    <h6 class="card-title">Css-tricks Hover</h6>
-    <ul class="nav">
-      <li class="nav-item">
-        <a class="nav-link" [routerLink]="'test-one'" routerLinkActive="active">Css-tricks Hover one</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" [routerLink]="'test-second'" routerLinkActive="active">Css-tricks Hover second</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" [routerLink]="'test-three'" routerLinkActive="active">Css-tricks Hover three</a>
-      </li>
-    </ul>
+  <div class="col s3 transparent nav-sidebar">
+
+        <h6 class="card-title">Hover</h6>
+        <ul class="nav">
+          <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" [routerLink]="'test-first'" >Test first</a>
+          </li>
+          <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" [routerLink]="'test-second'" >Test second</a>
+          </li>
+          <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" [routerLink]="'test-three'" >Test three</a>
+          </li>
+        </ul>
+
+
+    <!-- Grey navigation panel -->
+  </div>
+
+  <div class="col s9">
     <p class="card-text">
       <router-outlet></router-outlet>
     </p>
+    <!-- Teal page content  -->
   </div>
+
 </div>
