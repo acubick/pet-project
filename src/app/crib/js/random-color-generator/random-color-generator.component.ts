@@ -7,9 +7,7 @@ import {Component, OnInit} from '@angular/core';
 })
 
 export class RandomColorGeneratorComponent {
-  const;
   styleOne = '';
-  const;
   boxes = [];
 
   constructor() {
@@ -18,7 +16,7 @@ export class RandomColorGeneratorComponent {
       const box = document.createElement('div');
       this.boxes.push(box);
     }
-    console.log(this.boxes);
+    // console.log(this.boxes);
   }
 
   randomNexColorCode(): string {
