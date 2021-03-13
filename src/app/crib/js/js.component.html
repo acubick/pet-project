@@ -1,1 +1,22 @@
-<p>js works!</p>
+<div class="row">
+  <div class="col s3 transparent nav-sidebar">
+
+    <h5 class="card-title">JS</h5>
+    <ul class="nav">
+      <li class="nav-item"  routerLinkActive="active">
+        <a class="nav-link" [routerLink]="'random-color-generator'"
+        >Random color generator
+        </a>
+      </li>
+      <!--<li class="nav-item">-->
+      <!--  <a class="nav-link" [routerLink]="'text-jumps'" routerLinkActive="active"> Css-tricks text jumps </a>-->
+      <!--</li>-->
+    </ul>
+
+  </div>
+  <div class="col s9">
+    <p class="card-text">
+      <router-outlet></router-outlet>
+    </p>
+  </div>
+</div>

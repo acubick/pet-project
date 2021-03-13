@@ -1,0 +1,27 @@
+*{
+
+  font-family: "Lucida Console", sans-serif;
+}
+
+.btn{
+  display: block;
+  padding:  25px 40px;
+  font-size: 1em;
+  line-height: 0.3;
+  vertical-align: center;
+  margin: 20px auto;
+}
+.area{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box{
+  width: 20%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  //background: #f00;
+  border: 2px  solid white;
+}
