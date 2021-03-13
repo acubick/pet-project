@@ -6,19 +6,23 @@ import {Component, OnInit} from '@angular/core';
   styleUrls: ['./random-color-generator.component.scss']
 })
 
-export class RandomColorGeneratorComponent {
+export class RandomColorGeneratorComponent implements OnInit{
+
   styleOne = '';
   boxes = [];
 
   constructor() {
-     // TODO: Сделать добавление текста в блоки при инициализации массива
+
+  }
+
+  ngOnInit(): void {
+    // TODO: Сделать добавление текста в блоки при инициализации массива
     for (let i = 0; i < 100; i++) {
       const box = document.createElement('div');
       this.boxes.push(box);
     }
-    // console.log(this.boxes);
+    console.log(this.boxes);
   }
-
   randomNexColorCode(): string {
     let chars = '0123456789abcdef',
       colorLength = 6,

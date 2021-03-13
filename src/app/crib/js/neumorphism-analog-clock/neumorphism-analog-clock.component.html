@@ -1,15 +1,23 @@
+<link rel="stylesheet" href="neumorphism-analog-clock.component.scss">
 <div class="body-clock">
   <div class="clock">
     <div class="hour">
-      <div class="hr" id="hr"></div>
+      <div id="hr"
+           class="hr"
+           [ngStyle]="hourHandStyle"
+      ></div>
 
     </div>
     <div class="min">
-      <div class="mn" id="mn"></div>
+      <div class="mn" id="mn"
+           [ngStyle]="minuteHandStyle"
+      ></div>
 
     </div>
     <div class="sec">
-      <div class="sc" id="sc"></div>
+      <div class="sc" id="sc"
+           [ngStyle]="secondHandStyle"
+      ></div>
 
     </div>
   </div>
