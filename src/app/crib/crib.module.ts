@@ -14,7 +14,6 @@ import { HtmlComponent } from './html/html.component';
   declarations: [
     CribComponent,
     AnimationComponent,
-    JsComponent,
     MediaComponent,
     HtmlComponent
   ],
