@@ -1,5 +1,9 @@
-<button class="btn">Refresh</button>
-<section class="container">
-
+<button class="btn" (click)="changeColor()" >Refresh</button>
+<section class="area">
+    <div class="box"
+         *ngFor="let box of boxes"
+         [ngStyle]="{backgroundColor: randomNexColorCode()}"
+    ></div>
+    <!-- /.box -->
 </section>
 <!-- /.container -->
