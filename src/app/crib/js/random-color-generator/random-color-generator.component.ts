@@ -19,7 +19,6 @@ export class RandomColorGeneratorComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    // TODO: Сделать добавление текста в блоки при инициализации массива
     for (let i = 0; i < 100; i++) {
       this.styleOne  = this.randomNexColorCode();
       this.box = {backgroundColor: this.styleOne, text: this.styleOne};
@@ -43,6 +42,7 @@ export class RandomColorGeneratorComponent implements OnInit {
     const randomColorBlock = document.querySelectorAll('.box');
     randomColorBlock.forEach(e => {
       const newColor = this.randomNexColorCode();
+     // @ts-ignore
       e.style.backgroundColor = newColor;
       e.innerHTML = newColor;
     });
