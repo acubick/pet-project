@@ -6,9 +6,12 @@ import {Component, OnInit} from '@angular/core';
   styleUrls: ['./random-color-generator.component.scss']
 })
 
-export class RandomColorGeneratorComponent implements OnInit{
+
+
+export class RandomColorGeneratorComponent implements OnInit {
 
   styleOne = '';
+  box: any = '';
   boxes = [];
 
   constructor() {
@@ -18,10 +21,12 @@ export class RandomColorGeneratorComponent implements OnInit{
   ngOnInit(): void {
     // TODO: Сделать добавление текста в блоки при инициализации массива
     for (let i = 0; i < 100; i++) {
-      const box = document.createElement('div');
-      this.boxes.push(box);
+      this.styleOne  = this.randomNexColorCode();
+      this.box = {backgroundColor: this.styleOne, text: this.styleOne};
+      this.boxes.push(this.box);
+
     }
-    console.log(this.boxes);
+    // console.log(this.boxes);
   }
   randomNexColorCode(): string {
     let chars = '0123456789abcdef',

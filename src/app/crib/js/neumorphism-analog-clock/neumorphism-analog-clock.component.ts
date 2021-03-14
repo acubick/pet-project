@@ -27,7 +27,6 @@ export class NeumorphismAnalogClockComponent implements OnInit, AfterViewInit  {
   }
 
   ngOnInit(): void {
-    // this.hr.style.transform = `rotateZ(${(this.hh) + (this.mm/12)}deg)`;
   }
   ngAfterViewInit() {
     this.timerId = this.getTime();

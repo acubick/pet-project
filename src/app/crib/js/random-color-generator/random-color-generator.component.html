@@ -2,8 +2,8 @@
 <section class="area">
     <div class="box"
          *ngFor="let box of boxes"
-         [ngStyle]="{backgroundColor: randomNexColorCode()}"
-    ></div>
+         [ngStyle]="box"
+    >{{box.text}}</div>
     <!-- /.box -->
 </section>
 <!-- /.container -->
