@@ -10,6 +10,7 @@ import {SkewedBackgroundFirstComponent} from './skewed-background-first/skewed-b
 import {SkewedBackgroundSecondaryComponent} from './skewed-background-secondary/skewed-background-secondary.component';
 
 
+
 const routes: Routes = [
   {
     path: '', component: TricksComponent, children: [
@@ -22,6 +23,8 @@ const routes: Routes = [
       },
       {
         path: 'skewed-header', component: SkewedHeaderComponent
+      }, {
+        path: 'skewed-background-first', component: SkewedBackgroundFirstComponent
       },
       {
         path: 'skewed-background-first', component: SkewedBackgroundFirstComponent
