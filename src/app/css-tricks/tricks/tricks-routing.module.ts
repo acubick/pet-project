@@ -4,6 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import {NotFoundComponent} from '../../not-found/not-found.component';
 import {TricksComponent} from './tricks.component';
 import {ZigZagComponent} from './zig-zag/zig-zag.component';
+import {SkewedHeaderComponent} from './skewed-header/skewed-header.component';
 
 
 const routes: Routes = [
@@ -16,9 +17,9 @@ const routes: Routes = [
       // {
       //   path: 'test-second', component: TestSecondComponent
       // },
-      // {
-      //   path: 'test-three', component: TestThreeComponent
-      // },
+      {
+        path: 'skewed-header', component: SkewedHeaderComponent
+      },
       {
         path: '', redirectTo: 'zig-zag', pathMatch: 'full'
       },
