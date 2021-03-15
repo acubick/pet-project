@@ -5,6 +5,7 @@ import {NotFoundComponent} from '../../not-found/not-found.component';
 import {TricksComponent} from './tricks.component';
 import {ZigZagComponent} from './zig-zag/zig-zag.component';
 import {SkewedHeaderComponent} from './skewed-header/skewed-header.component';
+import {CurvedHeaderComponent} from './curved-header/curved-header.component';
 
 
 const routes: Routes = [
@@ -14,9 +15,9 @@ const routes: Routes = [
       {
         path: 'zig-zag', component: ZigZagComponent
       },
-      // {
-      //   path: 'test-second', component: TestSecondComponent
-      // },
+      {
+        path: 'curved-header', component: CurvedHeaderComponent
+      },
       {
         path: 'skewed-header', component: SkewedHeaderComponent
       },
