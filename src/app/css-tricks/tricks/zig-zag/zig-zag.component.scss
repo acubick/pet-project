@@ -1,0 +1,38 @@
+.zigzag-body{
+  margin: 0;
+  padding: 0;
+  background: #ff8d8d;
+  height: 100vh;
+  position: relative;
+}
+
+.zigzag{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 50%;
+  background: #ffffff;
+}
+.zigzag:before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 15px;
+  display: block;
+  background: white;
+    background: linear-gradient(
+    -45deg, transparent 33.33%,
+    #ff8d8d 33.33%,
+         #ff8d8d 66.66%,
+        transparent 66.66%
+    ),
+    linear-gradient(
+        45deg, transparent 33.33%,
+        #ff8d8d 33.33%,
+        #ff8d8d 66.66%,
+        transparent 66.66%
+    );
+  background-size: 30px 60px;
+   transform: rotate(180deg);
+}
+

@@ -1,5 +1,6 @@
-import {Component, NgModule} from '@angular/core';
+import { NgModule} from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+
 import {HoverComponent} from './hover.component';
 import {TestFirstComponent} from './test-first/test-first.component';
 import {TestSecondComponent} from './test-second/test-second.component';

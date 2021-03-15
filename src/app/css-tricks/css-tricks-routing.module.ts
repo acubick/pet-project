@@ -16,7 +16,8 @@ const routes: Routes = [
         path: 'text-jumps', component: TextJumpsComponent,
       },
       { path: 'hover', loadChildren: () => import(`./hover/hover.module`).then(m => m.HoverModule) },
-
+      { path: 'tricks', loadChildren: () => import(`./tricks/tricks.module`).then(m => m.TricksModule) },
+      { path: 'buttons', loadChildren: () => import(`./buttons/buttons.module`).then(m => m.ButtonsModule) },
       {
         path: '', redirectTo: 'text-jumps', pathMatch: 'full'
       },
