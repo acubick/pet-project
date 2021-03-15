@@ -6,6 +6,7 @@ import {CssTricksRoutingModule} from './css-tricks-routing.module';
 import { TextJumpsComponent } from './text-jumps/text-jumps.component';
 import {CssTricksComponent} from './css-tricks.component';
 import {TricksComponent} from './tricks/tricks.component';
+import { ButtonsComponent } from './buttons/buttons.component';
 
 
 
@@ -14,7 +15,8 @@ import {TricksComponent} from './tricks/tricks.component';
     CssTricksComponent,
     HoverComponent,
     TextJumpsComponent,
-    TricksComponent
+    TricksComponent,
+    ButtonsComponent
   ],
   imports: [
     CommonModule,

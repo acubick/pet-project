@@ -4,7 +4,6 @@ import {CribRoutingModule} from './crib-routing.module';
 
 import { CribComponent } from './crib.component';
 import { AnimationComponent } from './animation/animation.component';
-import { JsComponent } from './js/js.component';
 import { MediaComponent } from './media/media.component';
 import { HtmlComponent } from './html/html.component';
 
