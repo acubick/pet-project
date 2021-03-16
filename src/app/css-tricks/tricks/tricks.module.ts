@@ -6,6 +6,7 @@ import { ZigZagComponent } from './zig-zag/zig-zag.component';
 import { SkewedHeaderComponent } from './skewed-header/skewed-header.component';
 import { CurvedHeaderComponent } from './curved-header/curved-header.component';
 import { SkewedBackgroundFirstComponent } from './skewed-background-first/skewed-background-first.component';
+import { SkewedBackgroundBorderComponent } from './skewed-background-border/skewed-background-border.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { SkewedBackgroundFirstComponent } from './skewed-background-first/skewed
     ZigZagComponent,
     SkewedHeaderComponent,
     CurvedHeaderComponent,
-    SkewedBackgroundFirstComponent
+    SkewedBackgroundFirstComponent,
+    SkewedBackgroundBorderComponent
   ],
   imports: [
     CommonModule,

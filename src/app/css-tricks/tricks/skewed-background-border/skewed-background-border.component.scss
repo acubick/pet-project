@@ -1,0 +1,43 @@
+.skewed-body{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.sec1,
+.sec2,
+.sec3{
+  height: 400px;
+  width: 100%;
+
+}
+.sec1{
+  background: #262626;
+  position: relative;
+}
+.sec2{
+  background: #ffeb3b;
+  position: relative;
+}
+
+.sec2::before{
+  content: '';
+  position: absolute;
+  border-bottom: 100px solid #ffeb3b;
+  border-left: 70vw solid transparent;
+  top: -100px;
+}
+
+.sec2::after{
+  content: '';
+  position: absolute;
+  border-top: 100px solid #ffeb3b;
+  border-right: 70vw solid transparent;
+  bottom: -100px;
+  right: 0;
+  z-index: 10;
+}
+
+.sec3{
+  background: #262626;
+  position: relative;
+}

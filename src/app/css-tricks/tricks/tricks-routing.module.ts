@@ -8,6 +8,7 @@ import {SkewedHeaderComponent} from './skewed-header/skewed-header.component';
 import {CurvedHeaderComponent} from './curved-header/curved-header.component';
 import {SkewedBackgroundFirstComponent} from './skewed-background-first/skewed-background-first.component';
 import {SkewedBackgroundSecondaryComponent} from './skewed-background-secondary/skewed-background-secondary.component';
+import {SkewedBackgroundBorderComponent} from './skewed-background-border/skewed-background-border.component';
 
 
 const routes: Routes = [
@@ -28,6 +29,9 @@ const routes: Routes = [
       },
       {
         path: 'skewed-background-secondary', component: SkewedBackgroundSecondaryComponent
+      },
+      {
+        path: 'skewed-background-border', component: SkewedBackgroundBorderComponent
       },
       {
         path: '', redirectTo: 'zig-zag', pathMatch: 'full'
