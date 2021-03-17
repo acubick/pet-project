@@ -1,0 +1,99 @@
+.overlay-body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #222;
+}
+.content-main{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 900px;
+  width: 100%;
+}
+.content-main .card{
+  position: relative;
+  width: 320px;
+  height: 320px;
+  margin: 15px;
+  overflow: hidden;
+}
+
+.content-main .card .imgBx,
+.content-main .card .contentBx
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.content-main .card .imgBx img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.content-main .card .contentBx::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  z-index: 2;
+  transform: scaleX(0);
+  transition: transform 0.5s ease-out;
+  transform-origin: left;
+}
+.content-main .card:hover .contentBx::before{
+  transform: scaleX(1);
+  transition: transform 0.5s ease-out;
+  transform-origin: left
+}
+.content-main .card:not(:hover)  .contentBx::before{
+  transform-origin: right;
+}
+
+
+.content-main .card .contentBx{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.content-main .card .contentBx .content{
+  position: relative;
+  padding: 30px;
+  z-index: 3;
+  transition: transform 0.5s ease-out;
+  transform: translateX(-300px);
+}
+.content-main .card:hover .contentBx .content{
+  transform: translateX(0px);
+}
+//.content-main .card:not(:hover) .contentBx .content{
+//  transform: translateX(300px);
+//}
+
+.content-main .card .contentBx .content h3{
+  font-size: 1.3em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.content-main .card .contentBx .content p{
+  font-size: 1em;
+  line-height: 1em;
+  font-weight: 300;
+}

@@ -6,6 +6,7 @@ import {TestFirstComponent} from './test-first/test-first.component';
 import {TestSecondComponent} from './test-second/test-second.component';
 import {TestThreeComponent} from './test-three/test-three.component';
 import {NotFoundComponent} from '../../not-found/not-found.component';
+import {ImageHoverOverlayComponent} from './image-hover-overlay/image-hover-overlay.component';
 
 
 const routes: Routes = [
@@ -20,9 +21,11 @@ const routes: Routes = [
       },
       {
         path: 'test-three', component: TestThreeComponent
+      },{
+        path: 'image-hover-overlay', component: ImageHoverOverlayComponent
       },
       {
-        path: '', redirectTo: 'test-first', pathMatch: 'full'
+        path: '', redirectTo: 'image-hover-overlay', pathMatch: 'full'
       },
       { path: '**', component:  NotFoundComponent}
 
