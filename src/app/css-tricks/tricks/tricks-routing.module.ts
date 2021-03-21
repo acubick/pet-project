@@ -12,6 +12,7 @@ import {SkewedBackgroundBorderComponent} from './skewed-background-border/skewed
 import {InsideSilhouetteComponent} from './inside-silhouette/inside-silhouette.component';
 
 
+
 const routes: Routes = [
   {
     path: '', component: TricksComponent, children: [
@@ -24,6 +25,8 @@ const routes: Routes = [
       },
       {
         path: 'skewed-header', component: SkewedHeaderComponent
+      }, {
+        path: 'skewed-background-first', component: SkewedBackgroundFirstComponent
       },
       {
         path: 'skewed-background-first', component: SkewedBackgroundFirstComponent
