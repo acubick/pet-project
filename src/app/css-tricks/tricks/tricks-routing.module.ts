@@ -13,6 +13,7 @@ import {InsideSilhouetteComponent} from './inside-silhouette/inside-silhouette.c
 import {CurveBackgroundSvgComponent} from './curve-background-svg/curve-background-svg.component';
 
 
+
 const routes: Routes = [
   {
     path: '', component: TricksComponent, children: [
@@ -25,6 +26,8 @@ const routes: Routes = [
       },
       {
         path: 'skewed-header', component: SkewedHeaderComponent
+      }, {
+        path: 'skewed-background-first', component: SkewedBackgroundFirstComponent
       },
       {
         path: 'skewed-background-first', component: SkewedBackgroundFirstComponent

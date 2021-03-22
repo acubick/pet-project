@@ -11,6 +11,8 @@ import { InsideSilhouetteComponent } from './inside-silhouette/inside-silhouette
 import { CurveBackgroundSvgComponent } from './curve-background-svg/curve-background-svg.component';
 
 
+
+
 @NgModule({
   declarations: [
     ZigZagComponent,
@@ -20,6 +22,7 @@ import { CurveBackgroundSvgComponent } from './curve-background-svg/curve-backgr
     SkewedBackgroundBorderComponent,
     InsideSilhouetteComponent,
     CurveBackgroundSvgComponent
+    InsideSilhouetteComponent
   ],
   imports: [
     CommonModule,
