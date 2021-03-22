@@ -9,6 +9,7 @@ import { SkewedBackgroundFirstComponent } from './skewed-background-first/skewed
 import { SkewedBackgroundBorderComponent } from './skewed-background-border/skewed-background-border.component';
 import { InsideSilhouetteComponent } from './inside-silhouette/inside-silhouette.component';
 import { CurveBackgroundSvgComponent } from './curve-background-svg/curve-background-svg.component';
+import { DifferentCssShapesComponent } from './different-css-shapes/different-css-shapes.component';
 
 
 
@@ -21,8 +22,10 @@ import { CurveBackgroundSvgComponent } from './curve-background-svg/curve-backgr
     SkewedBackgroundFirstComponent,
     SkewedBackgroundBorderComponent,
     InsideSilhouetteComponent,
-    CurveBackgroundSvgComponent
+    CurveBackgroundSvgComponent,
+    DifferentCssShapesComponent,
     InsideSilhouetteComponent
+
   ],
   imports: [
     CommonModule,
