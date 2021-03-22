@@ -28,18 +28,26 @@
   background-color: rgba(206, 206, 206, 0.75);
 }
 
-.link__tutorial{
+.link__tutorial,
+.additional-links{
   max-width: 460px;
-  width: 100%;
   margin-top: 20px;
   display: flex;
   justify-content:center;
-  background: linear-gradient(45deg, #8614ce, #ff0057);
 
   a{
+
+    width: 100%;
     color: white;
     text-align: center;
     font-size: 22px;
+    padding: 10px;
   }
 
+}
+.link__tutorial{
+  background: linear-gradient(45deg, #8614ce, #ff0057);
+}
+.additional-links{
+  background: linear-gradient(45deg, #55ce14, #0088ff);
 }
