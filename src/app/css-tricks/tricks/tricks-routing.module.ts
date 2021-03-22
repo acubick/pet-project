@@ -14,6 +14,7 @@ import {CurveBackgroundSvgComponent} from './curve-background-svg/curve-backgrou
 import {DifferentCssShapesComponent} from './different-css-shapes/different-css-shapes.component';
 
 
+
 const routes: Routes = [
   {
     path: '', component: TricksComponent, children: [
@@ -26,6 +27,8 @@ const routes: Routes = [
       },
       {
         path: 'skewed-header', component: SkewedHeaderComponent
+      }, {
+        path: 'skewed-background-first', component: SkewedBackgroundFirstComponent
       },
       {
         path: 'skewed-background-first', component: SkewedBackgroundFirstComponent
