@@ -1,0 +1,23 @@
+.curve-body{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.curve{
+  background: #E21717;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.curve h1{
+  font-size: 4rem;
+}
+.curve h3{
+  font-size: 2rem;
+}
+.curve-top{
+  background-color: #E21717;
+}

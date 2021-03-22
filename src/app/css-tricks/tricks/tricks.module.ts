@@ -8,6 +8,9 @@ import { CurvedHeaderComponent } from './curved-header/curved-header.component';
 import { SkewedBackgroundFirstComponent } from './skewed-background-first/skewed-background-first.component';
 import { SkewedBackgroundBorderComponent } from './skewed-background-border/skewed-background-border.component';
 import { InsideSilhouetteComponent } from './inside-silhouette/inside-silhouette.component';
+import { CurveBackgroundSvgComponent } from './curve-background-svg/curve-background-svg.component';
+
+
 
 
 @NgModule({
@@ -17,6 +20,8 @@ import { InsideSilhouetteComponent } from './inside-silhouette/inside-silhouette
     CurvedHeaderComponent,
     SkewedBackgroundFirstComponent,
     SkewedBackgroundBorderComponent,
+    InsideSilhouetteComponent,
+    CurveBackgroundSvgComponent
     InsideSilhouetteComponent
   ],
   imports: [
