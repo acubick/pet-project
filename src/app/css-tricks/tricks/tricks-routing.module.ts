@@ -11,6 +11,7 @@ import {SkewedBackgroundSecondaryComponent} from './skewed-background-secondary/
 import {SkewedBackgroundBorderComponent} from './skewed-background-border/skewed-background-border.component';
 import {InsideSilhouetteComponent} from './inside-silhouette/inside-silhouette.component';
 import {CurveBackgroundSvgComponent} from './curve-background-svg/curve-background-svg.component';
+import {DifferentCssShapesComponent} from './different-css-shapes/different-css-shapes.component';
 
 
 const routes: Routes = [
@@ -40,6 +41,9 @@ const routes: Routes = [
       },
       {
         path: 'curve-background-svg', component: CurveBackgroundSvgComponent
+      },
+      {
+        path: 'different-css-shapes', component: DifferentCssShapesComponent
       },
       {
         path: '', redirectTo: 'zig-zag', pathMatch: 'full'
