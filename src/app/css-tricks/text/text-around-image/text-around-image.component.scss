@@ -18,10 +18,35 @@ section h2 {
 section p{
   color: white;
   font-size: 1.2em;
+  text-align: justify;
 }
+ .girl{
+   height: 250px;
+   width: auto;
+   float: left;
+   // FIXME: Изображение должно находиться в папке с компонентом.
+   // TODO: Иначе не работает
+   shape-outside: url(girl-1-1.png);
+   //margin-right: 20px;
+   shape-margin: 20px;
+   border: 1px solid green;
+ }
  .kidman{
    height: 250px;
-   float: left;
-   // TODO: shape-outside dosn't working
-   shape-outside: url(/src/assets/css-tricks/text/text-around-image/round-balloon.png);
+   width: auto;
+   float: right;
+   border: 1px solid green;
+   // FIXME: Изображение должно находиться в папке с компонентом.
+   // TODO: Иначе не работает
+   shape-outside: url(kidman.png);
+   margin-left: 20px;
+   shape-margin: 20px;
  }
+.gradient {
+  float: left;
+  height: 300px;
+  width: 100%;
+  background: linear-gradient(to bottom right, #86F7CC, transparent);
+  shape-outside: linear-gradient(to bottom right, #86F7CC, transparent);
+  shape-image-threshold: .5;
+}
