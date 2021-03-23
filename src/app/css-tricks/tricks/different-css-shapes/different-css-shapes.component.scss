@@ -34,7 +34,7 @@ section {
   height: 150px;
   background: #FFC145;
   bottom: -1em;
-  z-index: 100;
+  z-index: 3;
 }
 
 .one::before {
@@ -51,7 +51,7 @@ section {
 .two {
   background: #FF6B6C;
   position: relative;
-  z-index: 10;
+  z-index: 2;
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
   margin-bottom: -10vw;
 }
