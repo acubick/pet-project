@@ -11,6 +11,8 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+ // Убирает полосу снизу блока
+  margin: -1px;
 }
 .curve h1{
   font-size: 4rem;

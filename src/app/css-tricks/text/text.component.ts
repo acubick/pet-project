@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-text-jumps',
-  templateUrl: './text-jumps.component.html',
-  styleUrls: ['./text-jumps.component.scss']
+  templateUrl: './text.component.html',
+  styleUrls: ['./text.component.scss']
 })
-export class TextJumpsComponent implements OnInit {
+export class TextComponent implements OnInit {
 
   constructor() { }
 
