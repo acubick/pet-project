@@ -25,3 +25,12 @@ section p{
    // TODO: shape-outside dosn't working
    shape-outside: url(/src/assets/css-tricks/text/text-around-image/round-balloon.png);
  }
+
+.gradient {
+  float: left;
+  height: 300px;
+  width: 100%;
+  background: linear-gradient(to bottom right, #86F7CC, transparent);
+  shape-outside: linear-gradient(to bottom right, #86F7CC, transparent);
+  shape-image-threshold: .3;
+}
