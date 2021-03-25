@@ -12,6 +12,7 @@ import {SkewedBackgroundBorderComponent} from './skewed-background-border/skewed
 import {InsideSilhouetteComponent} from './inside-silhouette/inside-silhouette.component';
 import {CurveBackgroundSvgComponent} from './curve-background-svg/curve-background-svg.component';
 import {DifferentCssShapesComponent} from './different-css-shapes/different-css-shapes.component';
+import {GradientBorderCardsComponent} from './gradient-border-cards/gradient-border-cards.component';
 
 
 
@@ -47,6 +48,9 @@ const routes: Routes = [
       },
       {
         path: 'different-css-shapes', component: DifferentCssShapesComponent
+      },
+      {
+        path: 'gradient-border-cards', component: GradientBorderCardsComponent
       },
       {
         path: '', redirectTo: 'zig-zag', pathMatch: 'full'
