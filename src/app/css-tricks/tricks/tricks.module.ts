@@ -10,6 +10,7 @@ import { SkewedBackgroundBorderComponent } from './skewed-background-border/skew
 import { InsideSilhouetteComponent } from './inside-silhouette/inside-silhouette.component';
 import { CurveBackgroundSvgComponent } from './curve-background-svg/curve-background-svg.component';
 import { DifferentCssShapesComponent } from './different-css-shapes/different-css-shapes.component';
+import { GradientBorderCardsComponent } from './gradient-border-cards/gradient-border-cards.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { DifferentCssShapesComponent } from './different-css-shapes/different-cs
     SkewedBackgroundBorderComponent,
     InsideSilhouetteComponent,
     CurveBackgroundSvgComponent,
-    DifferentCssShapesComponent
+    DifferentCssShapesComponent,
+    GradientBorderCardsComponent
   ],
   imports: [
     CommonModule,
