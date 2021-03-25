@@ -12,6 +12,8 @@ import { CurveBackgroundSvgComponent } from './curve-background-svg/curve-backgr
 import { DifferentCssShapesComponent } from './different-css-shapes/different-css-shapes.component';
 
 
+
+
 @NgModule({
   declarations: [
     ZigZagComponent,
@@ -21,7 +23,9 @@ import { DifferentCssShapesComponent } from './different-css-shapes/different-cs
     SkewedBackgroundBorderComponent,
     InsideSilhouetteComponent,
     CurveBackgroundSvgComponent,
-    DifferentCssShapesComponent
+    DifferentCssShapesComponent,
+    InsideSilhouetteComponent
+
   ],
   imports: [
     CommonModule,
