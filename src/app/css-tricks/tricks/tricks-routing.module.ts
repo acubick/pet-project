@@ -15,6 +15,7 @@ import {DifferentCssShapesComponent} from './different-css-shapes/different-css-
 import {GradientBorderCardsComponent} from './gradient-border-cards/gradient-border-cards.component';
 
 
+
 const routes: Routes = [
   {
     path: '', component: TricksComponent, children: [
@@ -27,6 +28,8 @@ const routes: Routes = [
       },
       {
         path: 'skewed-header', component: SkewedHeaderComponent
+      }, {
+        path: 'skewed-background-first', component: SkewedBackgroundFirstComponent
       },
       {
         path: 'skewed-background-first', component: SkewedBackgroundFirstComponent
