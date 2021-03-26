@@ -13,6 +13,8 @@ import { DifferentCssShapesComponent } from './different-css-shapes/different-cs
 import { GradientBorderCardsComponent } from './gradient-border-cards/gradient-border-cards.component';
 
 
+
+
 @NgModule({
   declarations: [
     ZigZagComponent,
@@ -24,6 +26,8 @@ import { GradientBorderCardsComponent } from './gradient-border-cards/gradient-b
     CurveBackgroundSvgComponent,
     DifferentCssShapesComponent,
     GradientBorderCardsComponent
+    InsideSilhouetteComponent
+
   ],
   imports: [
     CommonModule,
