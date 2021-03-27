@@ -13,6 +13,7 @@ import {InsideSilhouetteComponent} from './inside-silhouette/inside-silhouette.c
 import {CurveBackgroundSvgComponent} from './curve-background-svg/curve-background-svg.component';
 import {DifferentCssShapesComponent} from './different-css-shapes/different-css-shapes.component';
 import {GradientBorderCardsComponent} from './gradient-border-cards/gradient-border-cards.component';
+import {NonRectangularHeaderComponent} from './non-rectangular-header/non-rectangular-header.component';
 
 
 
@@ -51,6 +52,9 @@ const routes: Routes = [
       },
       {
         path: 'gradient-border-cards', component: GradientBorderCardsComponent
+      },
+      {
+        path: 'non-rectangular-header', component: NonRectangularHeaderComponent
       },
       {
         path: '', redirectTo: 'zig-zag', pathMatch: 'full'
