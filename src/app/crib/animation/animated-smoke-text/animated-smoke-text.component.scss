@@ -25,30 +25,7 @@ section .text span{
   position: relative;
   display: inline-block;
   cursor: pointer;
-  padding: 0 2px;
+  padding: 0 1px;
 }
-//section .text span.active{
-//  animation: smoke 1s linear forwards;
-//  transform-origin: bottom;
-//
-//}
-//
-//@keyframes smoke {
-//  0%{
-//    opacity: 1;
-//    filter: blur(0);
-//    transform: translateY(0) translateX(0) rotate(0deg) scale(1);
-//  }
-//  50%{
-//    opacity: 1;
-//    pointer-events: none;
-//  }
-//  100%{
-//    opacity: 0;
-//    // display: none;
-//    filter: blur(10px) ;
-//    transform: translateY(-300px) translateX(300px) rotate(720deg) scale(4);
-//  }
-//
-//}
+
 

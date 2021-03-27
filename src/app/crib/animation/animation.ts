@@ -3,8 +3,8 @@ import {
   state,
   style,
   animate,
-  transition, keyframes,
-  // ...
+  transition,
+  keyframes
 } from '@angular/animations';
 
 
@@ -17,7 +17,5 @@ export let moveLetter = trigger('moveLetter', [
       style({opacity: 1, pointerEvents: 'none', filter: 'blur(5px)', transform: 'translateY(-200px) translateX(300px) rotate(720deg) scale(4)', offset: 0.5}),
       style({opacity: 0, filter: 'blur(10px)', transform: 'translateY(-300px) translateX(300px) rotate(720deg) scale(4)', offset: 1})
     ]))
-
-    // animate(500, style({ opacity: 0, filter: 'blur(10px)', transform: 'transform: translateY(-300px) translateX(300px) rotate(720deg) scale(4)' }))
   ]),
 ]);
