@@ -11,11 +11,11 @@ import {moveLetter} from '../animation';
   ]
 })
 export class AnimatedSmokeTextComponent implements OnInit {
-  public itemPrefix: Array<string> = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+  public itemPrefix: Array<string> = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, neque, quas. Aperiam aspernatur consequuntur est libero maiores maxime modi, molestiae praesentium quas quos sapiente sint. Cupiditate dicta dolorem necessitatibus quos! Aut corporis doloremque earum enim expedita facilis harum illo incidunt iste minima minus molestias nemo pariatur placeat porro praesentium provident quisquam,'.split('');
   state = [];
 
   @HostListener('mouseover', ['$event']) mouseMove(e: MouseEvent) {
-    console.log(this.state);
+    // console.log(this.state);
   }
 
   constructor() {
