@@ -11,6 +11,7 @@ import { InsideSilhouetteComponent } from './inside-silhouette/inside-silhouette
 import { CurveBackgroundSvgComponent } from './curve-background-svg/curve-background-svg.component';
 import { DifferentCssShapesComponent } from './different-css-shapes/different-css-shapes.component';
 import { GradientBorderCardsComponent } from './gradient-border-cards/gradient-border-cards.component';
+import { NonRectangularHeaderComponent } from './non-rectangular-header/non-rectangular-header.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { GradientBorderCardsComponent } from './gradient-border-cards/gradient-b
     InsideSilhouetteComponent,
     CurveBackgroundSvgComponent,
     DifferentCssShapesComponent,
-    GradientBorderCardsComponent
+    GradientBorderCardsComponent,
+    NonRectangularHeaderComponent
   ],
   imports: [
     CommonModule,
