@@ -21,25 +21,33 @@ section p.text{
   user-select: none;
   font-size: 1.5em;
 }
-span{
+section .text span{
   position: relative;
   display: inline-block;
   cursor: pointer;
 }
-span.active{
-  animation: smoke .2s linear;
-  cursor: pointer;
-  color: #000000;
+section .text span.active{
+  animation: smoke 1s linear forwards !important;
+  transform-origin: bottom;
+
 }
 
 @keyframes smoke {
   0%{
     opacity: 1;
+    filter: blur(0);
+    transform: translateY(0) translateX(0) rotate(0deg) scale(1);
   }
-
+  50%{
+    opacity: 1;
+    pointer-events: none;
+  }
   100%{
     opacity: 0;
-    display: none;
+    // display: none;
+    filter: blur(10px) ;
+    transform: translateY(-300px) translateX(300px) rotate(720deg) scale(4);
   }
 
 }
+
