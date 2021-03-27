@@ -14,6 +14,8 @@ import { GradientBorderCardsComponent } from './gradient-border-cards/gradient-b
 import { NonRectangularHeaderComponent } from './non-rectangular-header/non-rectangular-header.component';
 
 
+
+
 @NgModule({
   declarations: [
     ZigZagComponent,
@@ -25,7 +27,9 @@ import { NonRectangularHeaderComponent } from './non-rectangular-header/non-rect
     CurveBackgroundSvgComponent,
     DifferentCssShapesComponent,
     GradientBorderCardsComponent,
-    NonRectangularHeaderComponent
+    NonRectangularHeaderComponent,
+    InsideSilhouetteComponent
+
   ],
   imports: [
     CommonModule,

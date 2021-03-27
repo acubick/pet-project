@@ -16,6 +16,7 @@ import {GradientBorderCardsComponent} from './gradient-border-cards/gradient-bor
 import {NonRectangularHeaderComponent} from './non-rectangular-header/non-rectangular-header.component';
 
 
+
 const routes: Routes = [
   {
     path: '', component: TricksComponent, children: [
@@ -28,6 +29,8 @@ const routes: Routes = [
       },
       {
         path: 'skewed-header', component: SkewedHeaderComponent
+      }, {
+        path: 'skewed-background-first', component: SkewedBackgroundFirstComponent
       },
       {
         path: 'skewed-background-first', component: SkewedBackgroundFirstComponent
