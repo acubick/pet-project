@@ -5,6 +5,7 @@ import {HoverComponent} from './hover.component';
 import {NotFoundComponent} from '../../not-found/not-found.component';
 import {ImageHoverOverlayComponent} from './image-hover-overlay/image-hover-overlay.component';
 import {CardHoverEffectsComponent} from './card-hover-effects/card-hover-effects.component';
+import {FlipHardHoverComponent} from './flip-hard-hover/flip-hard-hover.component';
 
 
 const routes: Routes = [
@@ -15,6 +16,9 @@ const routes: Routes = [
       },
       {
         path: 'image-hover-overlay', component: ImageHoverOverlayComponent
+      },
+      {
+        path: 'flip-hard-hover', component: FlipHardHoverComponent
       },
       {
         path: '', redirectTo: 'image-hover-overlay', pathMatch: 'full'
