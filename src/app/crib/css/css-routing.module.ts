@@ -5,6 +5,7 @@ import {HoverComponent} from './hover/hover.component';
 import {TextComponent} from './text/text.component';
 import {NotFoundComponent} from '../../not-found/not-found.component';
 import {MasonryLayoutGridComponent} from './masonry-layout-grid/masonry-layout-grid.component';
+import {PlayerUserCardsComponent} from './player-user-cards/player-user-cards.component';
 
 
 
@@ -25,6 +26,9 @@ const routes: Routes = [
       },
       {
         path: 'masonry-layout-grid', component: MasonryLayoutGridComponent
+      },
+      {
+        path: 'player-user-cards', component:  PlayerUserCardsComponent
       },
       {path: '', redirectTo: 'masonry-layout-grid', pathMatch: 'full'},
       { path: '**', component:  NotFoundComponent}
