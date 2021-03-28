@@ -6,6 +6,7 @@ import { CommonModule } from '@angular/common';
 import {HoverComponent} from './hover/hover.component';
 import {CssComponent} from './css.component';
 import { MasonryLayoutGridComponent } from './masonry-layout-grid/masonry-layout-grid.component';
+import { PlayerUserCardsComponent } from './player-user-cards/player-user-cards.component';
 
 
 
@@ -15,7 +16,8 @@ import { MasonryLayoutGridComponent } from './masonry-layout-grid/masonry-layout
     CssComponent,
     HoverComponent,
     TextComponent,
-    MasonryLayoutGridComponent
+    MasonryLayoutGridComponent,
+    PlayerUserCardsComponent
   ],
   imports: [
     CommonModule,
