@@ -5,6 +5,7 @@ import { TextComponent } from './text/text.component';
 import { CommonModule } from '@angular/common';
 import {HoverComponent} from './hover/hover.component';
 import {CssComponent} from './css.component';
+import { MasonryLayoutGridComponent } from './masonry-layout-grid/masonry-layout-grid.component';
 
 
 
@@ -13,7 +14,8 @@ import {CssComponent} from './css.component';
   declarations: [
     CssComponent,
     HoverComponent,
-    TextComponent
+    TextComponent,
+    MasonryLayoutGridComponent
   ],
   imports: [
     CommonModule,

@@ -4,6 +4,7 @@ import {CssComponent} from './css.component';
 import {HoverComponent} from './hover/hover.component';
 import {TextComponent} from './text/text.component';
 import {NotFoundComponent} from '../../not-found/not-found.component';
+import {MasonryLayoutGridComponent} from './masonry-layout-grid/masonry-layout-grid.component';
 
 
 
@@ -22,7 +23,10 @@ const routes: Routes = [
       {
         path: 'text', component: TextComponent
       },
-      {path: '', redirectTo: 'hover', pathMatch: 'full'},
+      {
+        path: 'masonry-layout-grid', component: MasonryLayoutGridComponent
+      },
+      {path: '', redirectTo: 'masonry-layout-grid', pathMatch: 'full'},
       { path: '**', component:  NotFoundComponent}
 
     ]
