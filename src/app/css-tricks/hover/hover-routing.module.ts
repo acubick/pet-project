@@ -6,6 +6,7 @@ import {NotFoundComponent} from '../../not-found/not-found.component';
 import {ImageHoverOverlayComponent} from './image-hover-overlay/image-hover-overlay.component';
 import {CardHoverEffectsComponent} from './card-hover-effects/card-hover-effects.component';
 import {FlipHardHoverComponent} from './flip-hard-hover/flip-hard-hover.component';
+import {GradientGlassmorphismCardComponent} from './gradient-glassmorphism-card/gradient-glassmorphism-card.component';
 
 
 const routes: Routes = [
@@ -19,6 +20,9 @@ const routes: Routes = [
       },
       {
         path: 'flip-hard-hover', component: FlipHardHoverComponent
+      },
+      {
+        path: 'gradient-glassmorphism-card', component: GradientGlassmorphismCardComponent
       },
       {
         path: '', redirectTo: 'image-hover-overlay', pathMatch: 'full'

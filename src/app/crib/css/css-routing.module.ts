@@ -17,7 +17,6 @@ import {PlayerUserCardsComponent} from './player-user-cards/player-user-cards.co
 const routes: Routes = [
   {
     path: '', component: CssComponent, children: [
-
       {
         path: 'hover', component: HoverComponent
       },
@@ -32,7 +31,6 @@ const routes: Routes = [
       },
       {path: '', redirectTo: 'masonry-layout-grid', pathMatch: 'full'},
       { path: '**', component:  NotFoundComponent}
-
     ]
   }
 
