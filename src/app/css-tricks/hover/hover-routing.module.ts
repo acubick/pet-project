@@ -7,6 +7,7 @@ import {ImageHoverOverlayComponent} from './image-hover-overlay/image-hover-over
 import {CardHoverEffectsComponent} from './card-hover-effects/card-hover-effects.component';
 import {FlipHardHoverComponent} from './flip-hard-hover/flip-hard-hover.component';
 import {GradientGlassmorphismCardComponent} from './gradient-glassmorphism-card/gradient-glassmorphism-card.component';
+import {SocialMediaIconComponent} from './social-media-icon/social-media-icon.component';
 
 
 const routes: Routes = [
@@ -23,6 +24,9 @@ const routes: Routes = [
       },
       {
         path: 'gradient-glassmorphism-card', component: GradientGlassmorphismCardComponent
+      },
+      {
+        path: 'social-media-icon', component: SocialMediaIconComponent
       },
       {
         path: '', redirectTo: 'image-hover-overlay', pathMatch: 'full'
