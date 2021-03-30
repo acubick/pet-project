@@ -6,6 +6,7 @@ import { ImageHoverOverlayComponent } from './image-hover-overlay/image-hover-ov
 import { CardHoverEffectsComponent } from './card-hover-effects/card-hover-effects.component';
 import { FlipHardHoverComponent } from './flip-hard-hover/flip-hard-hover.component';
 import { GradientGlassmorphismCardComponent } from './gradient-glassmorphism-card/gradient-glassmorphism-card.component';
+import { SocialMediaIconComponent } from './social-media-icon/social-media-icon.component';
 
 
 @NgModule({
@@ -13,10 +14,11 @@ import { GradientGlassmorphismCardComponent } from './gradient-glassmorphism-car
     ImageHoverOverlayComponent,
     CardHoverEffectsComponent,
     FlipHardHoverComponent,
-    GradientGlassmorphismCardComponent],
-  imports: [
-    CommonModule,
-    HoverRoutingModule
-  ]
+    GradientGlassmorphismCardComponent,
+    SocialMediaIconComponent],
+    imports: [
+        CommonModule,
+        HoverRoutingModule
+    ]
 })
 export class HoverModule { }

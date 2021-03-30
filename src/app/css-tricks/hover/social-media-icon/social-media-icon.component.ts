@@ -1,15 +1,21 @@
-import { Component, OnInit } from '@angular/core';
-import {Title} from '@angular/platform-browser';
+import {Component, OnInit, Output} from '@angular/core';
+import { Title } from '@angular/platform-browser';
+
+
 
 @Component({
-  selector: 'app-drawer-menu',
-  templateUrl: './drawer-menu.component.html',
-  styleUrls: ['./drawer-menu.component.scss']
+  selector: 'app-social-media-icon',
+  templateUrl: './social-media-icon.component.html',
+  styleUrls: ['./social-media-icon.component.scss']
 })
-export class DrawerMenuComponent implements OnInit {
-  status: boolean = false;
+export class SocialMediaIconComponent implements OnInit {
+
+  @Output() outTitle = 'Social Media Icon';
+
+
+
   constructor(private title: Title) {
-    title.setTitle('Drawer Menu');
+    title.setTitle('CSS 3D Layered Social Media Icon Hover Effects');
   }
 
   ngOnInit(): void {
@@ -25,12 +31,4 @@ export class DrawerMenuComponent implements OnInit {
     head.appendChild(link);
   }
 
-  // document.querySelector('.toggle').onclick = function(){
-  //   this.classList.toggle('active')
-  // }
-
-  clickEvent(){
-    this.status = !this.status;
-    console.log(this.status, 'this.status');
-  }
 }
