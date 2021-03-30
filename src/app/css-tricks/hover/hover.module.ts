@@ -7,6 +7,7 @@ import { CardHoverEffectsComponent } from './card-hover-effects/card-hover-effec
 import { FlipHardHoverComponent } from './flip-hard-hover/flip-hard-hover.component';
 import { GradientGlassmorphismCardComponent } from './gradient-glassmorphism-card/gradient-glassmorphism-card.component';
 import { SocialMediaIconComponent } from './social-media-icon/social-media-icon.component';
+import { SkewedBorderComponent } from './skewed-border/skewed-border.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { SocialMediaIconComponent } from './social-media-icon/social-media-icon.
     CardHoverEffectsComponent,
     FlipHardHoverComponent,
     GradientGlassmorphismCardComponent,
-    SocialMediaIconComponent],
+    SocialMediaIconComponent,
+    SkewedBorderComponent],
     imports: [
         CommonModule,
         HoverRoutingModule

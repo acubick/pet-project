@@ -8,6 +8,7 @@ import {CardHoverEffectsComponent} from './card-hover-effects/card-hover-effects
 import {FlipHardHoverComponent} from './flip-hard-hover/flip-hard-hover.component';
 import {GradientGlassmorphismCardComponent} from './gradient-glassmorphism-card/gradient-glassmorphism-card.component';
 import {SocialMediaIconComponent} from './social-media-icon/social-media-icon.component';
+import {SkewedBorderComponent} from './skewed-border/skewed-border.component';
 
 
 const routes: Routes = [
@@ -27,6 +28,9 @@ const routes: Routes = [
       },
       {
         path: 'social-media-icon', component: SocialMediaIconComponent
+      },
+      {
+        path: 'skewed-border', component: SkewedBorderComponent
       },
       {
         path: '', redirectTo: 'image-hover-overlay', pathMatch: 'full'
