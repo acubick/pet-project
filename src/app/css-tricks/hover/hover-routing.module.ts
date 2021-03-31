@@ -9,6 +9,7 @@ import {FlipHardHoverComponent} from './flip-hard-hover/flip-hard-hover.componen
 import {GradientGlassmorphismCardComponent} from './gradient-glassmorphism-card/gradient-glassmorphism-card.component';
 import {SocialMediaIconComponent} from './social-media-icon/social-media-icon.component';
 import {SkewedBorderComponent} from './skewed-border/skewed-border.component';
+import {UserCardInteractionsComponent} from './user-card-interactions/user-card-interactions.component';
 
 
 const routes: Routes = [
@@ -31,6 +32,9 @@ const routes: Routes = [
       },
       {
         path: 'skewed-border', component: SkewedBorderComponent
+      },
+      {
+        path: 'user-card-interactions', component: UserCardInteractionsComponent
       },
       {
         path: '', redirectTo: 'image-hover-overlay', pathMatch: 'full'

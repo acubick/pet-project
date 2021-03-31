@@ -1,23 +1,20 @@
-import {Component, OnDestroy, OnInit, Output} from '@angular/core';
-import { Title } from '@angular/platform-browser';
-
-
+import {Component, OnDestroy, OnInit} from '@angular/core';
+import {Title} from '@angular/platform-browser';
 
 @Component({
-  selector: 'app-social-media-icon',
-  templateUrl: './social-media-icon.component.html',
-  styleUrls: ['./social-media-icon.component.scss']
+  selector: 'app-user-card-interactions',
+  templateUrl: './user-card-interactions.component.html',
+  styleUrls: ['./user-card-interactions.component.scss']
 })
-export class SocialMediaIconComponent implements OnInit, OnDestroy {
+export class UserCardInteractionsComponent implements OnInit,  OnDestroy  {
 
-  @Output() outTitle = 'Social Media Icon';
 
-   head;
-   link;
-   style;
+  head;
+  link;
+  style;
 
   constructor(private title: Title) {
-    title.setTitle('CSS 3D Layered Social Media Icon Hover Effects');
+    title.setTitle('User Card Interactions');
   }
 
   ngOnInit(): void {
@@ -35,5 +32,6 @@ export class SocialMediaIconComponent implements OnInit, OnDestroy {
   }
   ngOnDestroy() {
     this.head.removeChild(this.link);
-   }
+  }
+
 }
