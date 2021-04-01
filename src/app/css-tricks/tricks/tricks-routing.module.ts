@@ -14,6 +14,7 @@ import {CurveBackgroundSvgComponent} from './curve-background-svg/curve-backgrou
 import {DifferentCssShapesComponent} from './different-css-shapes/different-css-shapes.component';
 import {GradientBorderCardsComponent} from './gradient-border-cards/gradient-border-cards.component';
 import {NonRectangularHeaderComponent} from './non-rectangular-header/non-rectangular-header.component';
+import {VideoCubeDComponent} from './video-cube-d/video-cube-d.component';
 
 
 const routes: Routes = [
@@ -52,6 +53,9 @@ const routes: Routes = [
       },
       {
         path: 'non-rectangular-header', component: NonRectangularHeaderComponent
+      },
+      {
+        path: 'video-cube-d', component: VideoCubeDComponent
       },
       {
         path: '', redirectTo: 'zig-zag', pathMatch: 'full'
