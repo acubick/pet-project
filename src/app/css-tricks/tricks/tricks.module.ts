@@ -12,6 +12,7 @@ import { CurveBackgroundSvgComponent } from './curve-background-svg/curve-backgr
 import { DifferentCssShapesComponent } from './different-css-shapes/different-css-shapes.component';
 import { GradientBorderCardsComponent } from './gradient-border-cards/gradient-border-cards.component';
 import { NonRectangularHeaderComponent } from './non-rectangular-header/non-rectangular-header.component';
+import { VideoCubeDComponent } from './video-cube-d/video-cube-d.component';
 
 
 
@@ -28,8 +29,8 @@ import { NonRectangularHeaderComponent } from './non-rectangular-header/non-rect
     DifferentCssShapesComponent,
     GradientBorderCardsComponent,
     NonRectangularHeaderComponent,
+    VideoCubeDComponent,
     InsideSilhouetteComponent
-
   ],
   imports: [
     CommonModule,
