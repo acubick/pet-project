@@ -15,6 +15,8 @@ import { NonRectangularHeaderComponent } from './non-rectangular-header/non-rect
 import { VideoCubeDComponent } from './video-cube-d/video-cube-d.component';
 
 
+
+
 @NgModule({
   declarations: [
     ZigZagComponent,
@@ -27,7 +29,8 @@ import { VideoCubeDComponent } from './video-cube-d/video-cube-d.component';
     DifferentCssShapesComponent,
     GradientBorderCardsComponent,
     NonRectangularHeaderComponent,
-    VideoCubeDComponent
+    VideoCubeDComponent,
+    InsideSilhouetteComponent
   ],
   imports: [
     CommonModule,

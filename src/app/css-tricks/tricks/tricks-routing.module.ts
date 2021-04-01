@@ -17,6 +17,7 @@ import {NonRectangularHeaderComponent} from './non-rectangular-header/non-rectan
 import {VideoCubeDComponent} from './video-cube-d/video-cube-d.component';
 
 
+
 const routes: Routes = [
   {
     path: '', component: TricksComponent, children: [
@@ -29,6 +30,8 @@ const routes: Routes = [
       },
       {
         path: 'skewed-header', component: SkewedHeaderComponent
+      }, {
+        path: 'skewed-background-first', component: SkewedBackgroundFirstComponent
       },
       {
         path: 'skewed-background-first', component: SkewedBackgroundFirstComponent

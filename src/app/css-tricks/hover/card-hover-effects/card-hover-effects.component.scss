@@ -59,6 +59,11 @@
   transform: translateY(-90px);
 }
 
+
+.effects-container .card:hover .face.face2{
+  transform: translateY(0);
+}
+
 .effects-container .card:hover .face.face2{
   transform: translateY(0);
 }
@@ -68,10 +73,19 @@
   transition: 0.5s;
 }
 
+
 .effects-container .card:hover .face.face1 .content{
     opacity: 1;
 }
 
+.effects-container .card .face.face1 .content img{
+  max-width: 100%;
+}
+
+
+.effects-container .card:hover .face.face1 .content{
+    opacity: 1;
+}
 .effects-container .card .face.face1 .content img{
   max-width: 100%;
 }
