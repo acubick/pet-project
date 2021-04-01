@@ -1,0 +1,56 @@
+.text-body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #222;
+  overflow: hidden;
+}
+
+.text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-container .box {
+  transform-style: preserve-3d;
+  animation: animate 25s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: perspective(1500px) rotateX(0deg) rotate(55deg);
+  }
+  100% {
+    transform: perspective(1500px) rotateX(360deg) rotate(55deg);
+  }
+}
+
+.text-container .box span {
+  position: absolute;
+  color: white;
+  font-size: 3.5em;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 0 10px;
+  background: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.5), transparent);
+  line-height: 0.76em;
+  transform-style: preserve-3d;
+  text-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+  transform: translate(-50%, -50%) rotateX(calc(var(--i) * 22.5deg)) translateZ(106px);
+}
+
+.text-container .box span i:nth-child(1) {
+  font-style: initial;
+  color: #ff246f;
+}
+
+.text-container .box span i:nth-child(2) {
+  font-style: initial;
+  color: #12b5ff;
+}
