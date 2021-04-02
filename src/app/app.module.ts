@@ -6,7 +6,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NotFoundComponent } from './not-found/not-found.component';
-import { HomeComponent } from './home/home.component';
 import { HeaderMainComponent } from './header-main/header-main.component';
 import { FooterMainComponent } from './footer-main/footer-main.component';
 import {FormsModule} from '@angular/forms';
@@ -20,7 +19,6 @@ import {FormsModule} from '@angular/forms';
   declarations: [
     AppComponent,
     NotFoundComponent,
-    HomeComponent,
     HeaderMainComponent,
     FooterMainComponent
   ],
