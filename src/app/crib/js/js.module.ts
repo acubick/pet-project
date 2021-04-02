@@ -6,6 +6,7 @@ import { RandomColorGeneratorComponent } from './random-color-generator/random-c
 import {JsComponent} from './js.component';
 import { NeumorphismAnalogClockComponent } from './neumorphism-analog-clock/neumorphism-analog-clock.component';
 import { HeaderBackgroundFadeComponent } from './header-background-fade/header-background-fade.component';
+import { GlassShutterEffectsComponent } from './glass-shutter-effects/glass-shutter-effects.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { HeaderBackgroundFadeComponent } from './header-background-fade/header-b
     JsComponent,
     RandomColorGeneratorComponent,
     NeumorphismAnalogClockComponent,
-    HeaderBackgroundFadeComponent
+    HeaderBackgroundFadeComponent,
+    GlassShutterEffectsComponent
   ],
   imports: [
     CommonModule,

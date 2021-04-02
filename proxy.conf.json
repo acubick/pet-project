@@ -1,0 +1,10 @@
+{
+  "/api": {
+    "target": "https://www.gs4u.net/ru/s/147096.html",
+    "secure": true,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api": ""
+    }
+  }
+}

@@ -13,9 +13,9 @@ export class HeaderBackgroundFadeComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    let headerBg = document.getElementById('bg');
+    const headerBg = document.getElementById('bg');
     window.addEventListener('scroll', function () {
-       headerBg.style.opacity = 1 - +window.pageYOffset / 550;
+       headerBg.style.opacity = String(1 - +window.pageYOffset / 550);
        headerBg.style.top = +window.pageYOffset/2 + 'px';
        headerBg.style.backgroundPositionY = - +window.pageYOffset/10 + 'px';
 
