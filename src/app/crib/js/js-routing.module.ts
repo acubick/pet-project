@@ -5,6 +5,7 @@ import {NotFoundComponent} from '../../not-found/not-found.component';
 import {JsComponent} from './js.component';
 import {RandomColorGeneratorComponent} from './random-color-generator/random-color-generator.component';
 import {NeumorphismAnalogClockComponent} from './neumorphism-analog-clock/neumorphism-analog-clock.component';
+import {HeaderBackgroundFadeComponent} from './header-background-fade/header-background-fade.component';
 
 
 const routes: Routes = [
@@ -15,6 +16,10 @@ const routes: Routes = [
       },
       {
         path: 'neumorphism-analog-clock', component: NeumorphismAnalogClockComponent,
+      },
+
+      {
+        path: 'header-background-fade', component: HeaderBackgroundFadeComponent
       },
 
       {
