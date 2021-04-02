@@ -6,6 +6,7 @@ import {JsComponent} from './js.component';
 import {RandomColorGeneratorComponent} from './random-color-generator/random-color-generator.component';
 import {NeumorphismAnalogClockComponent} from './neumorphism-analog-clock/neumorphism-analog-clock.component';
 import {HeaderBackgroundFadeComponent} from './header-background-fade/header-background-fade.component';
+import {GlassShutterEffectsComponent} from './glass-shutter-effects/glass-shutter-effects.component';
 
 
 const routes: Routes = [
@@ -20,6 +21,9 @@ const routes: Routes = [
 
       {
         path: 'header-background-fade', component: HeaderBackgroundFadeComponent
+      },
+      {
+        path: 'glass-shutter-effects', component: GlassShutterEffectsComponent
       },
 
       {
