@@ -1,0 +1,132 @@
+.custom-body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-container h2 {
+  margin: 0 0 80px 0;
+  color: #8373e6;
+  font-size: 30px;
+}
+
+// * Стили Materialize
+[type="radio"]:not(:checked) + span, [type="radio"]:checked + span {
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  display: none;
+  height: 0;
+  width: 0;
+  opacity: 0;
+  line-height: 25px;
+  font-size: 1rem;
+  transition: .28s ease;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+[type="radio"] + span::before, [type="radio"] + span::after {
+  //content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  width: 0;
+  height: 0;
+  z-index: -1;
+  transition: .28s ease;
+}
+
+.radio-buttons {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.custom-radio input {
+  display: none;
+}
+
+.radio-btn {
+  margin: 10px;
+  width: 180px;
+  height: 200px;
+  border: 3px solid transparent;
+  display: inline-block;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  box-shadow: 0 0 20px #c3c3c367;
+}
+
+.radio-btn > i {
+  color: #fff;
+  background-color: #8373e6;
+  font-size: 20px;
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%) scale(4);
+  border-radius: 50%;
+  padding: 3px;
+  transition: 0.3s;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.radio-btn > i + i {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.radio-btn .hobbies-icon {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  i {
+    color: #8373e6;
+    background-color: transparent;
+    line-height: 80px;
+    font-size: 60px;
+    padding-top: 15px;
+  }
+
+  h3 {
+    margin-bottom: -40px;
+    color: #8373e6;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-transform: uppercase;
+  }
+}
+
+.custom-radio input:checked + .radio-btn {
+  border: 3px solid #8373e6;
+  .la-check{
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+  }
+
+}

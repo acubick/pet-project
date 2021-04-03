@@ -3,11 +3,13 @@ import { CommonModule } from '@angular/common';
 
 import { ButtonsRoutingModule } from './buttons-routing.module';
 import { RadioButtonComponent } from './radio-button/radio-button.component';
+import { CustomRadioButtonsComponent } from './custom-radio-buttons/custom-radio-buttons.component';
 
 
 @NgModule({
   declarations: [
-    RadioButtonComponent
+    RadioButtonComponent,
+    CustomRadioButtonsComponent
   ],
   imports: [
     CommonModule,
