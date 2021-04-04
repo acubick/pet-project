@@ -5,6 +5,7 @@ import {NotFoundComponent} from '../../not-found/not-found.component';
 import {AnimatedSmokeTextComponent} from './animated-smoke-text/animated-smoke-text.component';
 import {AnimationComponent} from './animation.component';
 import {TextAnimationEffectsDComponent} from './text-animation-effects-d/text-animation-effects-d.component';
+import {ProgressBarAnimationComponent} from './progress-bar-animation/progress-bar-animation.component';
 
 
 const routes: Routes = [
@@ -15,6 +16,9 @@ const routes: Routes = [
       },
       {
         path: 'text-animation-effects-d', component: TextAnimationEffectsDComponent,
+      },
+      {
+        path: 'progress-bar-animation', component: ProgressBarAnimationComponent,
       },
       {
         path: '', redirectTo: 'animated-smoke-text', pathMatch: 'full'
