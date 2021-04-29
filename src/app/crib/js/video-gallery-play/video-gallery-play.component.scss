@@ -1,0 +1,35 @@
+.video-body
+          {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.video-container{
+  height: 210vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.video-container .box{
+  position: relative;
+  width: 50%;
+  height: 70vh;
+  filter: grayscale(1);
+  border: 4px solid #000;
+
+}
+
+.video-container .box:hover{
+  filter: grayscale(0);
+}
+
+.video-container .box video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 800px;
+  object-fit: cover;
+}
