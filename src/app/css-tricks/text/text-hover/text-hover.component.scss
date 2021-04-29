@@ -1,0 +1,13 @@
+.site-title {
+  font-family: 'Roboto Thin', 'Segoe UI Light', Tahoma, sans-serif;
+  font-size: 48px;
+  color: white;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, .8);
+  transition: text-shadow .4s .1s ease;
+  -o-transition: text-shadow .4s .1s ease;
+  -moz-transition: text-shadow .4s .1s ease;
+  -webkit-transition: text-shadow .4s .1s ease;
+}
+.site-title:hover {
+  text-shadow: 0 6px 6px rgba(0, 0, 0, .5);
+}
