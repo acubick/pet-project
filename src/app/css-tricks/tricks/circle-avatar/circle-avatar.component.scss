@@ -1,0 +1,89 @@
+$radius: 450px;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.popup-body{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.popup-container{
+  position: relative;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.box{
+  position: relative;
+  width: $radius;
+  height: 550px;
+  //background: #ccc ;
+  margin: 20px 40px;
+  overflow: hidden;
+}
+
+.box::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: $radius;
+  height: $radius;
+  background: transparent;
+  border-radius: 50% ;
+  z-index: 1;
+  box-shadow: 0 100px 0 40px #fff;
+}
+.box::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: $radius;
+  height: $radius;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 6px solid transparent;
+  border-bottom: 6px solid  #000;
+  border-left: 6px solid  #000;
+
+}
+
+.box .circle-popup{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: $radius;
+  height: $radius;
+  background: #ffff5c;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 6px solid #000;
+}
+
+.box .circle-popup img,
+.box img{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 545px;
+  width: auto;
+}
+
+.box img{
+  bottom: 8px;
+}
+img{
+  width: 100%;
+  background: transparent;
+}
