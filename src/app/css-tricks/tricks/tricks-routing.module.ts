@@ -15,6 +15,7 @@ import {DifferentCssShapesComponent} from './different-css-shapes/different-css-
 import {GradientBorderCardsComponent} from './gradient-border-cards/gradient-border-cards.component';
 import {NonRectangularHeaderComponent} from './non-rectangular-header/non-rectangular-header.component';
 import {VideoCubeDComponent} from './video-cube-d/video-cube-d.component';
+import {CircleAvatarComponent} from './circle-avatar/circle-avatar.component';
 
 
 
@@ -59,6 +60,9 @@ const routes: Routes = [
       },
       {
         path: 'video-cube-d', component: VideoCubeDComponent
+      },
+      {
+        path: 'circle-avatar', component: CircleAvatarComponent
       },
       {
         path: '', redirectTo: 'zig-zag', pathMatch: 'full'

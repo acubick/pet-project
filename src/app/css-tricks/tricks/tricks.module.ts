@@ -13,6 +13,7 @@ import { DifferentCssShapesComponent } from './different-css-shapes/different-cs
 import { GradientBorderCardsComponent } from './gradient-border-cards/gradient-border-cards.component';
 import { NonRectangularHeaderComponent } from './non-rectangular-header/non-rectangular-header.component';
 import { VideoCubeDComponent } from './video-cube-d/video-cube-d.component';
+import { CircleAvatarComponent } from './circle-avatar/circle-avatar.component';
 
 
 
@@ -30,6 +31,7 @@ import { VideoCubeDComponent } from './video-cube-d/video-cube-d.component';
     GradientBorderCardsComponent,
     NonRectangularHeaderComponent,
     VideoCubeDComponent,
+    CircleAvatarComponent
     InsideSilhouetteComponent
   ],
   imports: [
