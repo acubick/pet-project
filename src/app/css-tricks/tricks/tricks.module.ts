@@ -16,6 +16,8 @@ import { VideoCubeDComponent } from './video-cube-d/video-cube-d.component';
 import { CircleAvatarComponent } from './circle-avatar/circle-avatar.component';
 
 
+
+
 @NgModule({
   declarations: [
     ZigZagComponent,
@@ -30,6 +32,7 @@ import { CircleAvatarComponent } from './circle-avatar/circle-avatar.component';
     NonRectangularHeaderComponent,
     VideoCubeDComponent,
     CircleAvatarComponent
+    InsideSilhouetteComponent
   ],
   imports: [
     CommonModule,

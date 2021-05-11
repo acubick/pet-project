@@ -18,6 +18,7 @@ import {VideoCubeDComponent} from './video-cube-d/video-cube-d.component';
 import {CircleAvatarComponent} from './circle-avatar/circle-avatar.component';
 
 
+
 const routes: Routes = [
   {
     path: '', component: TricksComponent, children: [
@@ -30,6 +31,8 @@ const routes: Routes = [
       },
       {
         path: 'skewed-header', component: SkewedHeaderComponent
+      }, {
+        path: 'skewed-background-first', component: SkewedBackgroundFirstComponent
       },
       {
         path: 'skewed-background-first', component: SkewedBackgroundFirstComponent
